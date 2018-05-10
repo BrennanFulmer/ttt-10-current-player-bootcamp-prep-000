@@ -13,13 +13,13 @@ def current_player(board)
   
 =begin
   if count.even? 
-    player = "X"
+    
   else
     player = "O"
   end
 =end
   
-  count.even? ? 
+  count.even? ? player = "X"
   
   player
 end
