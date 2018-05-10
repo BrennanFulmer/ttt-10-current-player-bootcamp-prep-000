@@ -3,6 +3,7 @@ def turn_count(board)
   board.each do |spot|
     spot == "X" || spot == "O" ? turn += 1 : next
   end
+  turns
 end
 
 def current_player
