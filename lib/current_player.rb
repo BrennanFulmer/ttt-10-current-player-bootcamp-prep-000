@@ -19,7 +19,7 @@ def current_player(board)
   end
 =end
   player = "O"
-  count.even? ? player = "X"
+  count.even? ? player = "X" :
   
   player
 end
