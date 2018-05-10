@@ -1,8 +1,7 @@
 def turn_count(board)
   turns = 0
   board.each do |spot|
-    if spot == "X" || spot == "O"
-      turns += 1
+    if spot == "X" || spot == "O" then turns += 1
     end
   end
   turns
